@@ -1,0 +1,15 @@
+@mixin antMenuDark() {
+  .ant-menu-dark {
+    background: #064095;
+
+    .ant-menu-inline.ant-menu-sub {
+      background: #032351;
+    }
+
+    .ant-menu-item {
+      &-selected {
+        background-color: #0b6bfb;
+      }
+    }
+  }
+}

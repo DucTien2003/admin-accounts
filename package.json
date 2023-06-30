@@ -1,0 +1,41 @@
+{
+  "name": "intranet-marketing-frontend",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{ts,js,vue,css,scss,json,md}\"",
+    "lint": "eslint \"**/*.{ts,js,vue}\" --fix"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.2.5",
+    "ant-design-vue": "^3.2.20",
+    "axios": "^1.4.0",
+    "pinia": "^2.1.3",
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2",
+    "vue": "^3.2.47",
+    "vue-meta": "^3.0.0-alpha.7",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "autoprefixer": "^10.4.14",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.41.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.14.1",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
+  }
+}
